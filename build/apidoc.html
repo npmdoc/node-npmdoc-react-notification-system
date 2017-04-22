@@ -1,0 +1,475 @@
+<div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a
+
+        href="https://github.com/igorprado/react-notification-system"
+
+    >react-notification-system (v0.2.13)</a>
+</h1>
+<h4>A React Notification System fully customized</h4>
+<div class="apidocSectionDiv"><a
+    href="#apidoc.tableOfContents"
+    id="apidoc.tableOfContents"
+><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-notification-system">module react-notification-system</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-notification-system.react-notification-system">
+            function <span class="apidocSignatureSpan"></span>react-notification-system
+            <span class="apidocSignatureSpan">(props, context, updater)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-notification-system.getDefaultProps">
+            function <span class="apidocSignatureSpan">react-notification-system.</span>getDefaultProps
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-notification-system.propTypes.noAnimation">
+            function <span class="apidocSignatureSpan">react-notification-system.</span>propTypes.noAnimation
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-notification-system.propTypes.style">
+            function <span class="apidocSignatureSpan">react-notification-system.</span>propTypes.style
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">react-notification-system.</span>defaultProps</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">react-notification-system.</span>helpers</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">react-notification-system.</span>propTypes</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">react-notification-system.</span>displayName</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-notification-system.helpers">module react-notification-system.helpers</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-notification-system.helpers.Timer">
+            function <span class="apidocSignatureSpan">react-notification-system.helpers.</span>Timer
+            <span class="apidocSignatureSpan">(callback, delay)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-notification-system.propTypes">module react-notification-system.propTypes</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-notification-system.propTypes.allowHTML">
+            function <span class="apidocSignatureSpan">react-notification-system.propTypes.</span>allowHTML
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-notification-system.propTypes.noAnimation">
+            function <span class="apidocSignatureSpan">react-notification-system.propTypes.</span>noAnimation
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-notification-system.propTypes.style">
+            function <span class="apidocSignatureSpan">react-notification-system.propTypes.</span>style
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-notification-system.propTypes.noAnimation">module react-notification-system.propTypes.noAnimation</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-notification-system.propTypes.noAnimation.noAnimation">
+            function <span class="apidocSignatureSpan">react-notification-system.propTypes.</span>noAnimation
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-notification-system.propTypes.noAnimation.isRequired">
+            function <span class="apidocSignatureSpan">react-notification-system.propTypes.noAnimation.</span>isRequired
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-notification-system.propTypes.style">module react-notification-system.propTypes.style</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-notification-system.propTypes.style.style">
+            function <span class="apidocSignatureSpan">react-notification-system.propTypes.</span>style
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-notification-system.propTypes.style.isRequired">
+            function <span class="apidocSignatureSpan">react-notification-system.propTypes.style.</span>isRequired
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-notification-system" id="apidoc.module.react-notification-system">module react-notification-system</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-notification-system.react-notification-system" id="apidoc.element.react-notification-system.react-notification-system">
+        function <span class="apidocSignatureSpan"></span>react-notification-system
+        <span class="apidocSignatureSpan">(props, context, updater)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">react-notification-system = function (props, context, updater) {
+  // This constructor is overridden by mocks. The argument is used
+  // by mocks to assert on what gets mounted.
+
+  if (process.env.NODE_ENV !== &#x27;production&#x27;) {
+    process.env.NODE_ENV !== &#x27;production&#x27; ? warning(this instanceof Constructor, &#x27;Something is calling a React component directly
+. Use a factory or &#x27; + &#x27;JSX instead. See: https://fb.me/react-legacyfactory&#x27;) : undefined;
+  }
+
+  // Wire up auto-binding
+  if (this.__reactAutoBindMap) {
+    bindAutoBindMethods(this);
+  }
+
+  this.props = props;
+  this.context = context;
+  this.refs = emptyObject;
+  this.updater = updater || ReactNoopUpdateQueue;
+
+  this.state = null;
+
+  // ReactClasses doesn&#x27;t have constructors. Instead, they use the
+  // getInitialState and componentWillMount methods for initialization.
+
+  var initialState = this.getInitialState ? this.getInitialState() : null;
+  if (process.env.NODE_ENV !== &#x27;production&#x27;) {
+    // We allow auto-mocks to proceed as if they&#x27;re returning null.
+    if (typeof initialState === &#x27;undefined&#x27; &#x26;&#x26; this.getInitialState._isMockFunction) {
+      // This is probably bad practice. Consider warning here and
+      // deprecating this convenience.
+      initialState = null;
+    }
+  }
+  !(typeof initialState === &#x27;object&#x27; &#x26;&#x26; !Array.isArray(initialState)) ? process.env.NODE_ENV !== &#x27;production&#x27; ? invariant(false, &#x27;%
+s.getInitialState(): must return an object or null&#x27;, Constructor.displayName || &#x27;ReactCompositeComponent&#x27;) : invariant(false) :
+undefined;
+
+  this.state = initialState;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-notification-system.getDefaultProps" id="apidoc.element.react-notification-system.getDefaultProps">
+        function <span class="apidocSignatureSpan">react-notification-system.</span>getDefaultProps
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">getDefaultProps = function () {
+  return {
+    style: {},
+    noAnimation: false,
+    allowHTML: false
+  };
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-notification-system.propTypes.noAnimation" id="apidoc.element.react-notification-system.propTypes.noAnimation">
+        function <span class="apidocSignatureSpan">react-notification-system.</span>propTypes.noAnimation
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">propTypes.noAnimation = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-notification-system.propTypes.style" id="apidoc.element.react-notification-system.propTypes.style">
+        function <span class="apidocSignatureSpan">react-notification-system.</span>propTypes.style
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">propTypes.style = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-notification-system.helpers" id="apidoc.module.react-notification-system.helpers">module react-notification-system.helpers</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-notification-system.helpers.Timer" id="apidoc.element.react-notification-system.helpers.Timer">
+        function <span class="apidocSignatureSpan">react-notification-system.helpers.</span>Timer
+        <span class="apidocSignatureSpan">(callback, delay)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">Timer = function (callback, delay) {
+  var timerId;
+  var start;
+  var remaining = delay;
+
+  this.pause = function() {
+    clearTimeout(timerId);
+    remaining -= new Date() - start;
+  };
+
+  this.resume = function() {
+    start = new Date();
+    clearTimeout(timerId);
+    timerId = setTimeout(callback, remaining);
+  };
+
+  this.clear = function() {
+    clearTimeout(timerId);
+  };
+
+  this.resume();
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-notification-system.propTypes" id="apidoc.module.react-notification-system.propTypes">module react-notification-system.propTypes</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-notification-system.propTypes.allowHTML" id="apidoc.element.react-notification-system.propTypes.allowHTML">
+        function <span class="apidocSignatureSpan">react-notification-system.propTypes.</span>allowHTML
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">allowHTML = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-notification-system.propTypes.noAnimation" id="apidoc.element.react-notification-system.propTypes.noAnimation">
+        function <span class="apidocSignatureSpan">react-notification-system.propTypes.</span>noAnimation
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">noAnimation = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-notification-system.propTypes.style" id="apidoc.element.react-notification-system.propTypes.style">
+        function <span class="apidocSignatureSpan">react-notification-system.propTypes.</span>style
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">style = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-notification-system.propTypes.noAnimation" id="apidoc.module.react-notification-system.propTypes.noAnimation">module react-notification-system.propTypes.noAnimation</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-notification-system.propTypes.noAnimation.noAnimation" id="apidoc.element.react-notification-system.propTypes.noAnimation.noAnimation">
+        function <span class="apidocSignatureSpan">react-notification-system.propTypes.</span>noAnimation
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">noAnimation = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-notification-system.propTypes.noAnimation.isRequired" id="apidoc.element.react-notification-system.propTypes.noAnimation.isRequired">
+        function <span class="apidocSignatureSpan">react-notification-system.propTypes.noAnimation.</span>isRequired
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">isRequired = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-notification-system.propTypes.style" id="apidoc.module.react-notification-system.propTypes.style">module react-notification-system.propTypes.style</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-notification-system.propTypes.style.style" id="apidoc.element.react-notification-system.propTypes.style.style">
+        function <span class="apidocSignatureSpan">react-notification-system.propTypes.</span>style
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">style = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-notification-system.propTypes.style.isRequired" id="apidoc.element.react-notification-system.propTypes.style.isRequired">
+        function <span class="apidocSignatureSpan">react-notification-system.propTypes.style.</span>isRequired
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">isRequired = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
