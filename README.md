@@ -1,6 +1,6 @@
 # npmdoc-react-notification-system
 
-#### api documentation for  [react-notification-system (v0.2.13)](https://github.com/igorprado/react-notification-system)  [![npm package](https://img.shields.io/npm/v/npmdoc-react-notification-system.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-react-notification-system) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-react-notification-system.svg)](https://travis-ci.org/npmdoc/node-npmdoc-react-notification-system)
+#### basic api documentation for  [react-notification-system (v0.2.13)](https://github.com/igorprado/react-notification-system)  [![npm package](https://img.shields.io/npm/v/npmdoc-react-notification-system.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-react-notification-system) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-react-notification-system.svg)](https://travis-ci.org/npmdoc/node-npmdoc-react-notification-system)
 
 #### A React Notification System fully customized
 
