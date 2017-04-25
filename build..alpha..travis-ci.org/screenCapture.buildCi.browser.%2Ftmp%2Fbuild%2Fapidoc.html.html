@@ -348,7 +348,22 @@ undefined;
 
   this.resume();
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    } else {
+      this._noAnimation = true;
+    }
+  }
+
+
+  if (notification.autoDismiss) {
+    this._notificationTimer = new Helpers.<span class="apidocCodeKeywordSpan">Timer</span>(function() {
+      self._hideNotification();
+    }, notification.autoDismiss * 1000);
+  }
+
+  this._showNotification();
+},
+...</pre></li>
     </ul>
 
 
